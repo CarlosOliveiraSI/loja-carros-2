@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.menu button {
+    background-color: #a4bf37;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu button:hover {
+    background-color: #8ca92f;
+}
+
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    width: 650px;
+    height: 180px;
+}
+
+.imagem_car {
+    width: 400px; 
+    height: 150px; 
+    border-radius: 3px; 
+    margin-left: 15px; 
+    object-fit: cover;
+}
+
+.card_content {
+    margin-left: 50px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    flex: 1; 
+}
+
+.card_content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #febe01;
+}
+
+.card_content p {
+    font-size: 14px;
+    color: #b2b2b2;
+    margin: 2px 0;
+}
+
+.card_content span {
+    color: #febe01;
+    font-weight: bold;
+}
+
+button {
+    background-color: #febe01; 
+    color: #332200; 
+    border-radius: 4px;
+    border: none; 
+    padding: 5px 10px; 
+    margin-top: 10px;
+    height: 25px;
+    width: 110px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd54f;
+    transition: 0.3s ease-in-out;
+}
